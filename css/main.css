@@ -25,10 +25,26 @@ img {
   width: 100%;
 }
 
+img:nth-child(3) {
+  visibility: hidden;
+}
+
+img:nth-child(4) {
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 25em) {
 
   img {
     width: 49%;
+  }
+
+  img:nth-child(3) {
+    visibility: visible;
+  }
+
+  img:nth-child(4) {
+    visibility: visible;
   }
 
 }
@@ -39,12 +55,20 @@ img {
     width: 32%;
   }
 
+  img:nth-child(4) {
+    visibility: hidden;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   img {
     width: 24%;
+  }
+
+  img:nth-child(4) {
+    visibility: visible;
   }
 
 }
