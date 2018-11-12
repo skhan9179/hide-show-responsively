@@ -18,7 +18,7 @@ html {
 
 img {
   display: inline-block;
-  width: 100%;
+  width: 24%;
 }
 
 @media only screen and (min-width: 25em) {
