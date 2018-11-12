@@ -31,6 +31,10 @@ img {
 
 @media only screen and (min-width: 38em) {
 
+  img {
+    width: 32%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
